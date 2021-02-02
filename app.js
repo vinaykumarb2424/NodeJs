@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 const mongo = require('mongodb');
 const { send } = require('process');
 const mongoclient = mongo.MongoClient;
-const mongodbUrl = "mongodb+srv://Vinay:Vinay@551888@cluster0.wx4mi.mongodb.net/<Internship>?retryWrites=true&w=majority";
+const mongodbUrl = "mongodb+srv://Vinay:Vinay@551888@cluster0.wx4mi.mongodb.net/Internship?retryWrites=true&w=majority";
 // connecting mongo server
 mongoclient.connect(mongodbUrl, (err,connection) =>{
 
